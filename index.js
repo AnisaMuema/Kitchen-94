@@ -14,6 +14,7 @@ let getJoke = () => {
 }
 btn.addEventListener("click", getJoke)
 
-getJoke();
+// const widget = document.getElementById("star-widget") 
 
+getJoke();
 
