@@ -6,14 +6,31 @@
     <title>Laugh it out</title>
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <!--stars rating -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--stylesheet-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
+        
         <!--emoji value-->
         <span>&#128514;</span>
         <p id="joke"></p>
+        <!--The star-rating inputs-->
+        <div class="star-widget">
+            <input type="radio" name="rate" id="rate-5">
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4">
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3">
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2">
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1">
+            <label for="rate-1" class="fas fa-star"></label>
+        </div>
+        <br>
         <button id="joke-btn">Get Random joke</button>
     </div>
     <!-- js script-->

@@ -58,3 +58,26 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* .wrapper */.star-widget{ 
+    margin: 0 auto;
+    display: flex;
+    background: #111;
+    padding: 20px 30px;
+    border: 1px solid rgb(46, 40, 40);
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+
+} 
+
+/* .wrapper .star-widget input{
+     display: none;
+} */
+
+
+
