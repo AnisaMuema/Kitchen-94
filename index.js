@@ -5,12 +5,12 @@ const btn = document.getElementById("joke-btn")
 
 let getJoke = () => {
 
-    function clearRadio(){
-        let resetRado = document.querySelectorAll('input[id="rate"]')
-        for(let i = 0; i < resetRado; i ++){
-            resetRado[i].checked = false;
-        }
-    }
+    // function clearRadio(){
+    //     let resetRado = document.querySelectorAll('input[id="rate"]')
+    //     for(let i = 0; i < resetRado; i ++){
+    //         resetRado[i].checked = false;
+    //     }
+    // }
     clearRadio();
     //this removes the fade effect after the joke is already displayed
     jokeContainer.classList.remove("fade")
@@ -29,11 +29,11 @@ let getJoke = () => {
 btn.addEventListener("click", getJoke, clearRadio)
 getJoke();
 
-// function clearRadio(){
-//     let resetRado = document.querySelectorAll('input[id="rate"]')
-//     for(let i = 0; i < resetRado; i ++){
-//         resetRado[i].checked = false;
-//     }
-// }
+function clearRadio(){
+    let resetRado = document.querySelectorAll('input[id="rate"]')
+    for(let i = 0; i < resetRado; i ++){
+        resetRado[i].checked = false;
+    }
+}
 
 // btn.addEventListener("click", getJoke, clearRadio)
