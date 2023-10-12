@@ -9,10 +9,10 @@ Welcome to laugh it out.
 USER STORY
 
 1. As a user, you will be able to read the displayed random joke on your screen.
-2. As a user, you will be able to click on the "Get Random Joke" button to get a newly generated joke, if the previous one wasn't of your humor. Or if you just can't seem to get over with the jokes and are interested in reading more.
+2. As a user, you will be able to click on the "Get Random Joke" button to get a newly generated joke, if the previous one wasn't of your humor. Or if you can't seem to get over with the jokes and are interested in reading more.
 3. As a user, you will be able to get endless jokes to soothe your heart.
-4. As a user you will be the judge  of each joke, having the authority to rate each one of them. With laughing emoji being the best joke you have heard all day, and the upset emoji being the worst known to you.
-5. As a user, you will be able to choose a specific genre of jokes you will like to laugh to, click the " Get Random Joke" button and enjoy.
+4. As a user you will be the judge  of each joke, having the authority to rate each one of them. The laughing emoji is the best joke you have heard all day, and the upset emoji is the worst known to you.
+5. As a user, you can choose a specific genre of jokes you would like to laugh at, click the " Get Random Joke" button and enjoy.
 
 
 The fetch API used for this website is 
