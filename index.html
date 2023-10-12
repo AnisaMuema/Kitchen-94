@@ -6,29 +6,42 @@
     <title>Laugh it out</title>
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
-    <!--stars rating -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--emoji rating -->
+    <link href="https://cdn.jsdelivr.net/npm/emoji.css@3.0.1@/emoji.min.css" rel="stylesheet"/>
     <!--stylesheet-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="dropDown">
+        <button onclick="selectFunction()" class="dropBtn">Select joke genre</button>
+        <div id="myDropDown" class="dropDown-content" >
+            <a href="#">Programming</a>
+            <a href="#">Spooky</a>
+            <a href="#">Christmas</a>
+            <a href="#">Misc</a>
+            <a href="#">Dark</a>
+            <a href="#">Pun</a>
+        </div>
+    </div>
     <div class="wrapper">
         
         <!--emoji value-->
         <span>&#128514;</span>
         <p id="joke"></p>
         <!--The star-rating icons-->
-        <div class="star-widget">
-            <input type="radio" name="rate" id="rate-5">
-            <label for="rate-5" class="fa fa-star"></label>
-            <input type="radio" name="rate" id="rate-4">
-            <label for="rate-4" class="fa fa-star"></label>
-            <input type="radio" name="rate" id="rate-3">
-            <label for="rate-3" class="fa fa-star"></label>
-            <input type="radio" name="rate" id="rate-2">
-            <label for="rate-2" class="fa fa-star"></label>
-            <input type="radio" name="rate" id="rate-1">
-            <label for="rate-1" class="fa fa-star"></label>
+        <div class="emoji-widget">
+            <input type="radio" name="rate" id="rate-5" value="Laugh" class="radio" >
+            <label for="rate-5" class="emoji emoji-1" for="rate-5">&#128514;</label>
+
+            <input type="radio" name="rate" id="rate-4" value="Happy" class="radio">
+            <label for="rate-4" class="emoji emoji-2" for="rate-4">&#128516;</label>
+
+            <input type="radio" name="rate" id="rate-3" value="Confused" class="radio" >
+            <label for="rate-3" class="emoji emoji-3" for="rate-3">&#128530;</label>
+
+            <input type="radio" name="rate" id="rate-2" value="Unamused" class="radio" >
+            <label for="rate-2" class="emoji emoji-4" for="rate-2">&#128533;</label>  
+            
         </div>
         <br>
         <button id="joke-btn" value="Reset data" onclick="clearRadio()">Get Random joke</button>

@@ -60,7 +60,7 @@ button{
     cursor: pointer;
 }
 
-.star-widget{ 
+.emoji-widget{ 
     margin: 0 auto;
     display: flex;
     background: #111;
@@ -78,11 +78,11 @@ button{
 
 } 
 
-.wrapper .star-widget input{
+.wrapper .emoji-widget input{
      display: none;
 }
 
-.star-widget label{
+.emoji-widget label{
     font-size: 20px;
     color: #444;
     padding: 10px;
@@ -93,10 +93,15 @@ button{
 
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover{
-    color: #fd4
+    color: #fd4;
+    text-shadow: 0 0 10px #fd4;
+
+
 }
 input:checked ~ label{
     color: #fd4;
+    text-shadow: 0 0 5px #fd4;
+
 }
 
 input#rate-5:checked ~ label{
@@ -104,3 +109,50 @@ input#rate-5:checked ~ label{
     text-shadow:  0 0 20px #952;
 }
 
+.dropBtn{
+    background-color: rgb(18, 16, 13);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 50px;
+
+    
+}
+
+
+.dropBtn:hover, .dropBtn:focus{
+    background-color: rgb(215, 176, 129);
+
+}
+
+.dropDown{
+    position: block;
+    display: inline;
+}
+.dropDown-content {
+    display: none;
+    position:absolute;
+    background-color: bisque;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(151, 151, 71);
+    z-index: 1;
+    margin: 50px;
+    top: 60px;
+}
+
+/* Links inside the dropDown*/
+.dropDown a{
+    color: #444;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropDown-content a:hover{
+    background-color: antiquewhite;
+}
+
+.show {
+    display: block;
+}

@@ -11,16 +11,15 @@ USER STORY
 1. As a user, you will be able to read the displayed random joke on your screen.
 2. As a user, you will be able to click on the "Get Random Joke" button to get a newly generated joke, if the previous one wasn't of your humor. Or if you just can't seem to get over with the jokes and are interested in reading more.
 3. As a user, you will be able to get endless jokes to soothe your heart.
-4. As a user you will be the judge  of each joke, having the authority to rate each one out of five. With five stars being the best joke, and 1 star being the worst.
+4. As a user you will be the judge  of each joke, having the authority to rate each one of them. With laughing emoji being the best joke you have heard all day, and the upset emoji being the worst known to you.
+5. As a user, you will be able to choose a specific genre of jokes you will like to laugh to, click the " Get Random Joke" button and enjoy.
+
 
 The fetch API used for this website is 
-: https://sv443.net/jokeapi/v2/
-
-specifically
 : https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,political,racist,sexist,explicit&type=single
 
 Google font used in this project is
 : https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Poppins:ital,wght@1,200&display=swap 
 
-Rating stars used in this project is from 
-: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+Rating emojis used in this project is from 
+: https://cdn.jsdelivr.net/npm/emoji.css@3.0.1@/emoji.min.css
